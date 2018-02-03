@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <default revision="android-7.x"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+<project path="kernel" name="secuflag/android_kernel_huawei_AGS-W09" />
+<project path="kernel/vendor/qcom/opensource/wlan/prima" name="secuflag/qcom_opensource_wlan_prima" />
+
+</manifest>
